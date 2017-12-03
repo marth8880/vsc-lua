@@ -96,43 +96,43 @@
         "scope": "source.lua"
     },
     "coroutine.create": {
-        "body": "coroutine.create( ${1:function} )",
+        "body": "coroutine.create(${1:function})",
         "description": "5.1,5.2,5.3\n\ncoroutine.create",
         "prefix": "coroutine.create",
         "scope": "source.lua"
     },
     "coroutine.isyieldable": {
-        "body": "coroutine.isyieldable( )",
+        "body": "coroutine.isyieldable()",
         "description": "5.3\n\ncoroutine.isyieldable",
         "prefix": "coroutine.isyieldable",
         "scope": "source.lua"
     },
     "coroutine.resume": {
-        "body": "coroutine.resume( ${1:co}${2:[, val1, \u00b7\u00b7\u00b7]} )",
+        "body": "coroutine.resume(${1:co}${2:[, val1, \u00b7\u00b7\u00b7]})",
         "description": "5.1,5.2,5.3\n\ncoroutine.resume",
         "prefix": "coroutine.resume",
         "scope": "source.lua"
     },
     "coroutine.running": {
-        "body": "coroutine.running( )",
+        "body": "coroutine.running()",
         "description": "5.1,5.2,5.3\n\ncoroutine.running",
         "prefix": "coroutine.running",
         "scope": "source.lua"
     },
     "coroutine.status": {
-        "body": "coroutine.status( ${1:co} )",
+        "body": "coroutine.status(${1:co})",
         "description": "5.1,5.2,5.3\n\ncoroutine.status",
         "prefix": "coroutine.status",
         "scope": "source.lua"
     },
     "coroutine.wrap": {
-        "body": "coroutine.wrap( ${1:function} )",
+        "body": "coroutine.wrap(${1:function})",
         "description": "5.1,5.2,5.3\n\ncoroutine.wrap",
         "prefix": "coroutine.wrap",
         "scope": "source.lua"
     },
     "coroutine.yield": {
-        "body": "coroutine.yield( ${1:...} )",
+        "body": "coroutine.yield(${1:...})",
         "description": "5.1,5.2,5.3\n\ncoroutine.yield",
         "prefix": "coroutine.yield",
         "scope": "source.lua"
@@ -150,25 +150,25 @@
         "scope": "source.lua"
     },
     "debug.gethook": {
-        "body": "debug.gethook( ${1:[thread]} )",
+        "body": "debug.gethook(${1:[thread]})",
         "description": "5.1,5.2,5.3\n\ndebug.gethook ([thread])",
         "prefix": "debug.gethook",
         "scope": "source.lua"
     },
     "debug.getinfo": {
-        "body": "debug.getinfo( ${1:[thread],}${2:f}${3:[, what]} )",
+        "body": "debug.getinfo(${1:[thread],}${2:f}${3:[, what]})",
         "description": "5.1,5.2,5.3\n\ndebug.getinfo ([thread,] f [, what])",
         "prefix": "debug.getinfo",
         "scope": "source.lua"
     },
     "debug.getlocal": {
-        "body": "debug.getlocal( ${1:[thread],}${2:f}${3:[, local]} )",
+        "body": "debug.getlocal(${1:[thread],}${2:f}${3:[, local]})",
         "description": "5.1,5.2,5.3\n\ndebug.getlocal ([thread,] f, local)",
         "prefix": "debug.getlocal",
         "scope": "source.lua"
     },
     "debug.getmetatable": {
-        "body": "debug.getmetatable( ${1:value} )",
+        "body": "debug.getmetatable(${1:value})",
         "description": "5.1,5.2,5.3\n\ndebug.getmetatable (value)",
         "prefix": "debug.getmetatable",
         "scope": "source.lua"
@@ -180,7 +180,7 @@
         "scope": "source.lua"
     },
     "debug.getupvalue": {
-        "body": "debug.getupvalue( ${1:f}, ${2:up} )",
+        "body": "debug.getupvalue(${1:f}, ${2:up})",
         "description": "5.1,5.2,5.3\n\ndebug.getupvalue (f, up)",
         "prefix": "debug.getupvalue",
         "scope": "source.lua"
@@ -192,7 +192,7 @@
         "scope": "source.lua"
     },
     "debug.getuservalue ": {
-        "body": "debug.getuservalue ( ${1:u} )",
+        "body": "debug.getuservalue (${1:u})",
         "description": "debug.getuservalue (u)",
         "prefix": "debug.getuservalue ",
         "scope": "source.lua"
@@ -204,49 +204,49 @@
         "scope": "source.lua"
     },
     "debug.sethook": {
-        "body": "debug.sethook( ${1:[thead,]}${2:hook}, ${3:mask}${4:[, count]} )",
+        "body": "debug.sethook(${1:[thead,]}${2:hook}, ${3:mask}${4:[, count]})",
         "description": "5.1,5.2,5.3\n\ndebug.sethook ([thread,] hook, mask [, count])",
         "prefix": "debug.sethook",
         "scope": "source.lua"
     },
     "debug.setlocal": {
-        "body": "debug.setlocal( ${1:[thead,]}${2:level}, ${3:local}, ${4:value} )",
+        "body": "debug.setlocal(${1:[thead,]}${2:level}, ${3:local}, ${4:value})",
         "description": "5.1,5.2,5.3\n\ndebug.setlocal ([thread,] level, local, value)",
         "prefix": "debug.setlocal",
         "scope": "source.lua"
     },
     "debug.setmetatable": {
-        "body": "debug.setmetatable( ${1:value}, ${2:table} )",
+        "body": "debug.setmetatable(${1:value}, ${2:table})",
         "description": "5.1,5.2,5.3\n\ndebug.setmetatable (value, table)",
         "prefix": "debug.setmetatable",
         "scope": "source.lua"
     },
     "debug.setupvalue": {
-        "body": "debug.setupvalue( ${1:f}, ${2:up}, ${3:value} )",
+        "body": "debug.setupvalue(${1:f}, ${2:up}, ${3:value})",
         "description": "5.1,5.2,5.3\n\ndebug.setupvalue (f, up, value)",
         "prefix": "debug.setupvalue",
         "scope": "source.lua"
     },
     "debug.setuservalue": {
-        "body": "debug.setuservalue( ${1:udata}, ${2:value} )",
+        "body": "debug.setuservalue(${1:udata}, ${2:value})",
         "description": "5.2,5.3\n\ndebug.setuservalue (udata, value)",
         "prefix": "debug.setuservalue",
         "scope": "source.lua"
     },
     "debug.traceback": {
-        "body": "debug.traceback( ${1:[thread,]}${2:[message]}${3:[, level]} )",
+        "body": "debug.traceback(${1:[thread,]}${2:[message]}${3:[, level]})",
         "description": "5.1,5.2,5.3\n\ndebug.traceback ([thread,] [message [, level]])",
         "prefix": "debug.traceback",
         "scope": "source.lua"
     },
     "debug.upvalueid": {
-        "body": "debug.upvalueid( ${1:f}, ${2:n})",
+        "body": "debug.upvalueid(${1:f}, ${2:n})",
         "description": "5.2,5.3\n\ndebug.upvalueid (f, n)",
         "prefix": "debug.upvalueid",
         "scope": "source.lua"
     },
     "debug.upvaluejoin": {
-        "body": "debug.upvaluejoin( ${1:f1}, ${2:n1}, ${3:f2}, ${4:n2} )",
+        "body": "debug.upvaluejoin(${1:f1}, ${2:n1}, ${3:f2}, ${4:n2})",
         "description": "5.2,5.3\n\ndebug.upvaluejoin (f1, n1, f2, n2)",
         "prefix": "debug.upvaluejoin",
         "scope": "source.lua"
@@ -330,13 +330,13 @@
         "scope": "source.lua"
     },
     "fun": {
-        "body": "function ${1:function_name}( ${2:...} )\n\t${0:-- body}\nend",
+        "body": "function ${1:function_name}(${2:...} )\n\t${0:-- body}\nend",
         "description": "function",
         "prefix": "fun",
         "scope": "source.lua"
     },
     "function": {
-        "body": "function ${1:function_name}( ${2:...} )\n\t${0:-- body}\nend",
+        "body": "function ${1:function_name}(${2:...} )\n\t${0:-- body}\nend",
         "description": "function",
         "prefix": "function",
         "scope": "source.lua"
@@ -462,25 +462,25 @@
         "scope": "source.lua"
     },
     "math.abs": {
-        "body": "math.abs( ${1:x} )",
+        "body": "math.abs(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.abs",
         "prefix": "math.abs",
         "scope": "source.lua"
     },
     "math.acos": {
-        "body": "math.acos( ${1:x} )",
+        "body": "math.acos(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.acos",
         "prefix": "math.acos",
         "scope": "source.lua"
     },
     "math.asin": {
-        "body": "math.asin( ${1:x} )",
+        "body": "math.asin(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.asin",
         "prefix": "math.asin",
         "scope": "source.lua"
     },
     "math.atan": {
-        "body": "math.atan( ${1:y}${2:[, x]} )",
+        "body": "math.atan(${1:y}${2:[, x]})",
         "description": "5.1,5.2,5.3\n\nmath.atan",
         "prefix": "math.atan",
         "scope": "source.lua"
@@ -492,13 +492,13 @@
         "scope": "source.lua"
     },
     "math.ceil": {
-        "body": "math.ceil( ${1:x} )",
+        "body": "math.ceil(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.ceil",
         "prefix": "math.ceil",
         "scope": "source.lua"
     },
     "math.cos": {
-        "body": "math.cos( ${1:x} )",
+        "body": "math.cos(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.cos",
         "prefix": "math.cos",
         "scope": "source.lua"
@@ -510,25 +510,25 @@
         "scope": "source.lua"
     },
     "math.deg": {
-        "body": "math.deg( ${1:x} )",
+        "body": "math.deg(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.deg",
         "prefix": "math.deg",
         "scope": "source.lua"
     },
     "math.exp": {
-        "body": "math.exp( ${1:x} )",
+        "body": "math.exp(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.exp",
         "prefix": "math.exp",
         "scope": "source.lua"
     },
     "math.floor": {
-        "body": "math.floor( ${1:x} )",
+        "body": "math.floor(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.floor",
         "prefix": "math.floor",
         "scope": "source.lua"
     },
     "math.fmod": {
-        "body": "math.fmod( ${1:x},${2:y} )",
+        "body": "math.fmod(${1:x},${2:y})",
         "description": "5.1,5.2,5.3\n\nmath.fmod",
         "prefix": "math.fmod",
         "scope": "source.lua"
@@ -552,7 +552,7 @@
         "scope": "source.lua"
     },
     "math.log": {
-        "body": "math.log( ${1:x}${2:[, base]} )",
+        "body": "math.log(${1:x}${2:[, base]})",
         "description": "5.1,5.2,5.3\n\nmath.log",
         "prefix": "math.log",
         "scope": "source.lua"
@@ -564,13 +564,13 @@
         "scope": "source.lua"
     },
     "math.math.randomseed": {
-        "body": "math.math.randomseed( ${1:x} )",
+        "body": "math.math.randomseed(${1:x})",
         "description": "math.math.randomseed",
         "prefix": "math.math.randomseed",
         "scope": "source.lua"
     },
     "math.max": {
-        "body": "math.max( ${1:x},${2:...} )",
+        "body": "math.max(${1:x},${2:...})",
         "description": "5.1,5.2,5.3\n\nmath.max",
         "prefix": "math.max",
         "scope": "source.lua"
@@ -582,7 +582,7 @@
         "scope": "source.lua"
     },
     "math.min": {
-        "body": "math.min( ${1:x},${2:...} )",
+        "body": "math.min(${1:x},${2:...})",
         "description": "5.1,5.2,5.3\n\nmath.min",
         "prefix": "math.min",
         "scope": "source.lua"
@@ -594,7 +594,7 @@
         "scope": "source.lua"
     },
     "math.modf": {
-        "body": "math.modf( ${1:x} )",
+        "body": "math.modf(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.modf",
         "prefix": "math.modf",
         "scope": "source.lua"
@@ -618,7 +618,7 @@
         "scope": "source.lua"
     },
     "math.random": {
-        "body": "math.random( ${1:[m]}${2:[, n]} )",
+        "body": "math.random(${1:[m]}${2:[, n]})",
         "description": "5.1,5.2,5.3\n\nmath.random",
         "prefix": "math.random",
         "scope": "source.lua"
@@ -630,7 +630,7 @@
         "scope": "source.lua"
     },
     "math.sin": {
-        "body": "math.sin( ${1:x} )",
+        "body": "math.sin(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.sin",
         "prefix": "math.sin",
         "scope": "source.lua"
@@ -642,13 +642,13 @@
         "scope": "source.lua"
     },
     "math.sqrt": {
-        "body": "math.sqrt( ${1:x} )",
+        "body": "math.sqrt(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.sqrt",
         "prefix": "math.sqrt",
         "scope": "source.lua"
     },
     "math.tan": {
-        "body": "math.tan( ${1:x} )",
+        "body": "math.tan(${1:x})",
         "description": "5.1,5.2,5.3\n\nmath.tan",
         "prefix": "math.tan",
         "scope": "source.lua"
@@ -660,13 +660,13 @@
         "scope": "source.lua"
     },
     "math.tointeger": {
-        "body": "math.tointeger( ${1:x} )",
+        "body": "math.tointeger(${1:x})",
         "description": "5.3\n\nmath.tointeger",
         "prefix": "math.tointeger",
         "scope": "source.lua"
     },
     "math.type": {
-        "body": "math.type( ${1:x} )",
+        "body": "math.type(${1:x})",
         "description": "5.3\n\nmath.type",
         "prefix": "math.type",
         "scope": "source.lua"
@@ -894,13 +894,13 @@
         "scope": "source.lua"
     },
     "string.byte": {
-        "body": "string.byte( ${1:s}${2:[, i]}${3:[, j]} )",
+        "body": "string.byte(${1:s}${2:[, i]}${3:[, j]})",
         "description": "5.1,5.2,5.3\n\nstring.byte",
         "prefix": "string.byte",
         "scope": "source.lua"
     },
     "string.char": {
-        "body": "string.char( ${1:...} )",
+        "body": "string.char(${1:...})",
         "description": "5.1,5.2,5.3\n\nstring.char",
         "prefix": "string.char",
         "scope": "source.lua"
@@ -912,43 +912,43 @@
         "scope": "source.lua"
     },
     "string.find": {
-        "body": "string.find( ${1:s},${2:pattern}${3:[, init]}${4:[, plain]} )",
+        "body": "string.find(${1:s},${2:pattern}${3:[, init]}${4:[, plain]})",
         "description": "5.1,5.2,5.3\n\nstring.find",
         "prefix": "string.find",
         "scope": "source.lua"
     },
     "string.format": {
-        "body": "string.format( \"${1:formatstring}\",${2:...} )",
+        "body": "string.format( \"${1:formatstring}\",${2:...})",
         "description": "5.1,5.2,5.3\n\nstring.format",
         "prefix": "string.format",
         "scope": "source.lua"
     },
     "string.gmatch": {
-        "body": "string.gmatch( ${1:s},${2:pattern} )",
+        "body": "string.gmatch(${1:s},${2:pattern})",
         "description": "5.1,5.2,5.3\n\nstring.gmatch",
         "prefix": "string.gmatch",
         "scope": "source.lua"
     },
     "string.gsub": {
-        "body": "string.gsub( ${1:s},${2:pattern},${3:repl}${4:[, n]} )",
+        "body": "string.gsub(${1:s},${2:pattern},${3:repl}${4:[, n]})",
         "description": "5.1,5.2,5.3\n\nstring.gsub",
         "prefix": "string.gsub",
         "scope": "source.lua"
     },
     "string.len": {
-        "body": "string.len( ${1:s} )",
+        "body": "string.len(${1:s})",
         "description": "5.1,5.2,5.3\n\nstring.len",
         "prefix": "string.len",
         "scope": "source.lua"
     },
     "string.lower": {
-        "body": "string.lower( ${1:s} )",
+        "body": "string.lower(${1:s})",
         "description": "5.1,5.2,5.3\n\nstring.lower",
         "prefix": "string.lower",
         "scope": "source.lua"
     },
     "string.match": {
-        "body": "string.match( ${1:s},${2:pattern}${3:[, init]} )",
+        "body": "string.match(${1:s},${2:pattern}${3:[, init]})",
         "description": "5.1,5.2,5.3\n\nstring.match",
         "prefix": "string.match",
         "scope": "source.lua"
@@ -966,19 +966,19 @@
         "scope": "source.lua"
     },
     "string.rep": {
-        "body": "string.rep( ${1:s}, ${2:n}${3:[, rep]} )",
+        "body": "string.rep(${1:s}, ${2:n}${3:[, rep]})",
         "description": "5.1,5.2,5.3\n\nstring.rep",
         "prefix": "string.rep",
         "scope": "source.lua"
     },
     "string.reverse": {
-        "body": "string.reverse( ${1:s} )",
+        "body": "string.reverse(${1:s})",
         "description": "5.1,5.2,5.3\n\nstring.reverse",
         "prefix": "string.reverse",
         "scope": "source.lua"
     },
     "string.sub": {
-        "body": "string.sub( ${1:s}, ${2:i}${3:[, j]} )",
+        "body": "string.sub(${1:s}, ${2:i}${3:[, j]})",
         "description": "5.1,5.2,5.3\n\nstring.sub",
         "prefix": "string.sub",
         "scope": "source.lua"
@@ -990,19 +990,19 @@
         "scope": "source.lua"
     },
     "string.upper": {
-        "body": "string.upper( ${1:s} )",
+        "body": "string.upper(${1:s})",
         "description": "5.1,5.2,5.3\n\nstring.upper",
         "prefix": "string.upper",
         "scope": "source.lua"
     },
     "table.concat": {
-        "body": "table.concat( ${1:tablename}${2:, \", \"}${3:, start_index}${4:, end_index} )",
+        "body": "table.concat(${1:tablename}${2:, \", \"}${3:, start_index}${4:, end_index})",
         "description": "5.1,5.2,5.3\n\ntable.concat",
         "prefix": "table.concat",
         "scope": "source.lua"
     },
     "table.insert": {
-        "body": "table.insert( ${1:list},${2: [pos,]}${3: value} )",
+        "body": "table.insert(${1:list},${2: [pos,]}${3: value})",
         "description": "5.1,5.2,5.3\n\ntable.insert",
         "prefix": "table.insert",
         "scope": "source.lua"
@@ -1026,13 +1026,13 @@
         "scope": "source.lua"
     },
     "table.remove": {
-        "body": "table.remove( ${1:list},${2: [pos,]} )",
+        "body": "table.remove(${1:list},${2: [pos,]})",
         "description": "5.1,5.2,5.3\n\ntable.remove",
         "prefix": "table.remove",
         "scope": "source.lua"
     },
     "table.sort": {
-        "body": "table.sort( ${1:tablename}${2:, sortfunction} )",
+        "body": "table.sort(${1:tablename}${2:, sortfunction})",
         "description": "5.1,5.2,5.3\n\ntable.sort",
         "prefix": "table.sort",
         "scope": "source.lua"
